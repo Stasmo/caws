@@ -1,0 +1,12 @@
+.sequencer {
+    height: 400px;
+    background-color: rgb(0,0,0, 0.2);
+}
+
+.sequencer .track {
+    height: 50px;
+}
+
+.sequencer .track:nth-child(odd) {
+    background-color: rgb(128,128,128,0.05);
+}
